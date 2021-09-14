@@ -1,0 +1,17 @@
+name: cbc-rss
+version: 0.1.0
+
+authors:
+  - Jack Arthur Harrhy <me@jackharrhy.com>
+
+targets:
+  api:
+    main: src/cbc-rss.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 1.1.1
+
+license: MIT
